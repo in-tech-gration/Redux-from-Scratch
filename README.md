@@ -9,11 +9,22 @@
 ```bash
 npx vitest
 ```
+or
+
+```bash
+npm t
+```
 
 **Serve index.html**
 
 ```bash
-npx ite
+npx vite
+```
+
+or 
+
+```bash
+npm start
 ```
 
 ## How the project was initialized
