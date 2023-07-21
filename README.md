@@ -1,30 +1,21 @@
-Redux from Scratch (App Development Tutorial) - Tejas Kumar
+## Code from the [Redux from Scratch](https://www.youtube.com/watch?v=-g1f0j5Qk8A) tutorial by [Tejas Kumar](https://tej.as/)
 
-npm init -y
-npm i -D vitest
+**Run tests:**
 
+```bash
 npx vitest
-
-> No test suite found
-
-redux.test.ts:
-
-```ts
-import { describe, it, expect } from "vitest";
-
-describe("our redux", ()=>{
-  it("should update state properly", ()=>{
-    expect(true).toBe(true);
-  });
-});
 ```
 
-npx vitest
+**Serve index.html**
 
-> All tests pass
+```bash
+npx ite
+```
 
-redux.test.ts:
+## How the project was initialized
 
-index.html:
+```bash
+npm init -y
+npm i -D vitest
+```
 
-npx vite
