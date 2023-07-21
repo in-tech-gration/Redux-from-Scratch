@@ -40,3 +40,6 @@ npm i -D vitest
 
 ---
 
+## Variation: `legacy_createStore`
+
+Since the original [API](https://redux.js.org/api/createstore) accepts the `reducer` as the first argument, the folder `legacy_createStore` contains a variation of the `createStore` method created by Tejas Kumar that is closer to the original API and accepts the `reducer` as its only argument. The `initialState` is passed as a default parameter just like when using the original API.
